@@ -1,1 +1,15 @@
 [2024-12-10 16:08:24] Mise en noir et blanc de l'image : '<PIL.WebPImagePlugin.WebPImageFile image mode=RGB size=800x800 at 0x105EEECF0>'.
+[2024-12-10 16:23:15] Mise en noir et blanc de l'image : '<PIL.Image.Image image mode=L size=800x800 at 0x10561D310>'.
+[2024-12-10 16:25:13] L'image a été mis en noir et blanc
+[2024-12-10 16:30:50] L'image a été dilatée
+[2024-12-10 16:46:03] L'image a été dilatée
+[2024-12-10 16:46:10] L'image a été dilatée
+[2024-12-10 16:46:27] L'image a été dilatée
+[2024-12-10 16:48:22] L'image a été dilatée
+[2024-12-10 16:48:36] L'image a été dilatée
+[2024-12-10 16:51:07] L'image a été dilatée
+[2024-12-10 16:54:18] L'image a été mis en noir et blanc. 
+[2024-12-10 16:54:32] L'image a été mis en noir et blanc. 
+[2024-12-10 16:55:09] L'image a été floutée
+[2024-12-10 16:55:37] L'image a été tournée
+[2024-12-10 16:56:04] L'image a été tournée

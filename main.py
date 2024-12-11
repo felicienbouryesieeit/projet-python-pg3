@@ -97,19 +97,44 @@ def resize(image, x, y):
     return image
 
 
-def write( txt, x, y):
-    image2 = cv2.imread(path)
+def write(image, text, x, y):
+    """
+    Add text to an image and save it.
 
-    image2 = cv2.putText(
-        img = image2,
-        text = txt,
-        org = (x, y),
-        fontFace = cv2.FONT_HERSHEY_DUPLEX,
-        fontScale = 3.0,
-        color = (0, 0, 0),
-        thickness = 3
+    Args:
+        image_path: The path to the image file.
+        text: The text to add to the image.
+        x: The x-coordinate for the text position.
+        y: The y-coordinate for the text position.
+    """
+    # Charger l'image
+    image = cv2.imread(image)
+    if image is None:
+        log(f"Erreur : L'image '{image}' est introuvable.")
+        return
+
+    # Ajouter le texte sur l'image
+    image = cv2.putText(
+        img=image,
+        text=text,
+        org=(x, y),
+        fontFace=cv2.FONT_HERSHEY_DUPLEX,
+        fontScale=3.0,
+        color=(0, 0, 0),  # Couleur noire pour le texte
+        thickness=3
     )
-    cv2.imwrite("New Wallpaper.jpg", image2)
+
+    # Enregistrer l'image avec le texte
+    savedfile = "img/image_with_text.jpg"
+    cv2.imwrite(savedfile, image)
+    log(f"L'image avec texte a été sauvegardée sous '{savedfile}'.")
+
+    # Afficher l'image jusqu'à ce qu'une touche soit pressée
+    cv2.imshow("Image avec texte", image)
+    print("Appuyez sur une touche pour fermer l'image.")
+    cv2.waitKey(0)  # Attend une touche pour fermer la fenêtre
+    cv2.destroyAllWindows()
+
 
 
 # Étape 1 : Conversion en niveaux de gris

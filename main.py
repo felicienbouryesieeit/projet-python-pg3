@@ -1,36 +1,33 @@
-from PIL import Image, ImageFilter, UnidentifiedImageError
+from PIL import Image, ImageFilter, UnidentifiedImageError, ImageDraw
 from logger import log
 import cv2
 import os
+import numpy as np
 
 # Charger l'image avec gestion des erreurs
-list_img = []
+currentmodifiedimg="img/currentmodifiedimg.jpg"
 
-def load_image(path):
-    try:
-        image = Image.open(path)
-        log(f"L'image '{path}' a été chargée avec succès.")
-        print(f"L'image '{path}' a été chargée avec succès.")
-        return image
-    except FileNotFoundError:
-        log(f"Erreur : L'image '{path}' est introuvable.")
-        print(f"Erreur : L'image '{path}' est introuvable.")
-    except UnidentifiedImageError:
-        log(f"Erreur : Le fichier '{path}' n'est pas une image valide.")
-        print(f"Erreur : Le fichier '{path}' n'est pas une image valide.")
-    except Exception as e:
-        log(f"Erreur inattendue lors du chargement de l'image : {e}")
-        print(f"Erreur inattendue lors du chargement de l'image : {e}")
-    return None
+imagelist2=[]
 
 # Fonction pour convertir une image en niveaux de gris
 def convert_grey(image):
+    image = Image.open(image)
+    """
+    convert an image with grey pigmentation
+
+    arg:
+    image, an image installed  
+
+    return: converted image
+    """
     try:
         if image is None:
             raise ValueError("Image non chargée. Conversion en niveaux de gris impossible.")
         image_nb = image.convert("L")
-        savedfile = "img/imagemodified_grey.jpg"
+        savedfile = currentmodifiedimg
+        
         image_nb.save(savedfile)
+        #image = load_image(currentmodifiedimg)
         image_nb.show()
         log("L'image a été convertie en niveaux de gris et sauvegardée.")
         return image_nb
@@ -41,6 +38,15 @@ def convert_grey(image):
 
 # Fonction pour appliquer un flou à une image
 def blur(image, intensity):
+    """
+    blur an image with an intensity
+
+    args: 
+    image, an image installed
+    intensity, int used to intenfy blur
+    
+    return: blured image
+    """
     try:
         if image is None:
             raise ValueError("Image non chargée. Application de flou impossible.")
@@ -48,8 +54,10 @@ def blur(image, intensity):
             raise ValueError("L'intensité doit être un entier positif.")
         for _ in range(intensity):
             image = image.filter(ImageFilter.BLUR)
-        savedfile = "img/imagemodified_blur.jpg"
+        savedfile = currentmodifiedimg
+        
         image.save(savedfile)
+        #image = load_image(currentmodifiedimg)
         image.show()
         log("L'image a été floutée et sauvegardée.")
         return image
@@ -60,6 +68,15 @@ def blur(image, intensity):
 
 # Fonction pour dilater une image
 def expand(image, intensity):
+    """
+    expand colored pixel of an image with an intensity
+    
+    args:
+    image, an image installed
+    intensity, int used to intensify expand
+
+    return: expanded image
+    """
     try:
         if image is None:
             raise ValueError("Image non chargée. Dilatation impossible.")
@@ -67,9 +84,11 @@ def expand(image, intensity):
             raise ValueError("L'intensité doit être un entier positif.")
         for _ in range(intensity):
             image = image.filter(ImageFilter.MinFilter(3))
-        savedfile = "img/imagemodified_expand.jpg"
+        #savedfile = "img/imagemodified_expand.jpg"
+        
+        savedfile = currentmodifiedimg
         image.save(savedfile)
-        image.show()
+        #image.show()
         log("L'image a été dilatée et sauvegardée.")
         return image
     except Exception as e:
@@ -79,13 +98,23 @@ def expand(image, intensity):
 
 # Fonction pour faire pivoter une image
 def rotate(image, degree):
+    """
+    rotate an image
+
+    args:
+    image, an image installed
+    degree, int used to rotate
+
+    return: rotated image
+    """
     try:
         if image is None:
             raise ValueError("Image non chargée. Rotation impossible.")
         if not isinstance(degree, (int, float)):
             raise ValueError("Le degré de rotation doit être un entier ou un flottant.")
         image_rotated = image.rotate(degree)
-        savedfile = "img/imagemodified_rotate.jpg"
+        savedfile = currentmodifiedimg
+        
         image_rotated.save(savedfile)
         image_rotated.show()
         log("L'image a été tournée et sauvegardée.")
@@ -94,18 +123,28 @@ def rotate(image, degree):
         log(f"Erreur lors de la rotation de l'image : {e}")
         print(f"Erreur lors de la rotation de l'image : {e}")
         return None
-
+    
 # Fonction pour redimensionner une image
 def resize(image, x, y):
+    """
+    resize an image
+
+    args:
+    image, an image installed
+    x, int wich is new width of the image.
+    y, int wich is new height of the image.
+
+    return:resized image
+    """
     try:
         if image is None:
             raise ValueError("Image non chargée. Redimensionnement impossible.")
         if not isinstance(x, int) or not isinstance(y, int) or x <= 0 or y <= 0:
             raise ValueError("Les dimensions de redimensionnement doivent être des entiers positifs.")
         image_resized = image.resize((x, y))
-        savedfile = "img/imagemodified_resize.jpg"
+        savedfile = currentmodifiedimg
         image_resized.save(savedfile)
-        image_resized.show()
+        #image_resized.show()
         log("L'image a été redimensionnée et sauvegardée.")
         return image_resized
     except Exception as e:
@@ -115,6 +154,15 @@ def resize(image, x, y):
 
 # Fonction pour ajouter du texte à une image avec OpenCV
 def write(image_path, text, x, y):
+    """
+    Add text to an image and save it.
+
+    Args:
+        image_path: The path to the image file.
+        text: The text to add to the image.
+        x: The x-coordinate for the text position.
+        y: The y-coordinate for the text position.
+    """
     try:
         if not os.path.exists(image_path):
             raise FileNotFoundError(f"L'image '{image_path}' est introuvable.")
@@ -136,9 +184,10 @@ def write(image_path, text, x, y):
             color=(0, 0, 0),
             thickness=3
         )
-        savedfile = "img/image_with_text.jpg"
+        savedfile = currentmodifiedimg
         cv2.imwrite(savedfile, image)
         log(f"L'image avec texte a été sauvegardée sous '{savedfile}'.")
+        
         Image.open(savedfile).show()
     except Exception as e:
         log(f"Erreur lors de l'ajout de texte à l'image : {e}")
@@ -151,16 +200,58 @@ def write(image_path, text, x, y):
 #         return image
 # # Exemple d'utilisation
 
-def gif(image):
-    image_paths = ['image1.png', 'image2.png', 'image3.png']
-    image = [Image.open(image) for image in image_paths]
-    gif = image('animation.gif', save_all=True, append_images=image, duration=500, loop=0)
-    gif.save()
-    gif.show()
+
+
+# def gif(image_paths, output_gif_path, duration=500):
+#     images = [Image.open(image_path) for image_path in image_paths]
+#     # Save as GIF
+#     images[0].save(output_gif_path, save_all=True, append_images=images[1:], duration=duration, loop=0 
+#     )
+
+#     if __name__ == "__main__":
+#     # List of image file paths
+#         image_paths = ["image1.jpg", "image2.jpg", "image3.jpg"] # Add your file paths
+#     # Output GIF path
+#         output_gif_path = "output.gif"
+#     # Create GIF
+#         #create_gif(image_paths, output_gif_path)
+
+#         print(f"GIF created and saved at {output_gif_path}")
+#     return
+
+
+def detect_faces(image):
+
+    face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml') # pour détecter l'image
+    open_cv_image = cv2.cvtColor(np.array(image), cv2.COLOR_RGB2BGR) # Converti l'image pil en tableau NumPy pour OpenCV
+    gray = cv2.cvtColor(open_cv_image, cv2.COLOR_BGR2GRAY) # converti l'image en niveaux de gris
+
+    # Détecter les visages dans l'image
+    face = face_cascade.detectMultiScale(gray, scaleFactor=1.1, minNeighbors=5) # détecte les visage
+
+    # vérifier si des visages ont été détectés
+    if len(face) == 0:
+        print("Aucun visage détecté.")
+    else:
+        print(f"{len(face)} visage(s) détecté(s).")
+
+    draw = ImageDraw.Draw(image) # permet de pouvoir dessiner sur l'image
+    for (x, y, w, h) in face:
+        draw.rectangle([x, y, x + w, y + h], outline="red", width=3) # dessine les carré sur les tetes détectées
+
+    image.save(currentmodifiedimg)
+
     return
-    
+
+
 # Fonction pour ajouter du texte à une image avec OpenCV
 def watercolor(image):
+    """
+    add watercolor filter to an image
+
+    arg:
+    image, an image installed
+    """
     try:
         if not os.path.exists(image):
             raise FileNotFoundError(f"L'image '{image}' est introuvable.")
@@ -190,46 +281,70 @@ def watercolor(image):
 
         img_water=((sketch/255.0)*img_soft).astype("uint8")
         
-        savedfile = "img/image_watercolor.jpg"
+        savedfile = currentmodifiedimg
+        
         cv2.imwrite(savedfile, img_water)
         log(f"L'image avec texte a été sauvegardée sous '{savedfile}'.")
-        Image.open(savedfile).show()
+        #Image.open(savedfile).show()
     except Exception as e:
         log(f"Erreur lors de l'ajout de texte à l'image : {e}")
         print(f"Erreur lors de l'ajout de texte à l'image : {e}")
 
-def tab_add(img): 
-    img2 =  "img/"+img#+".jpg"
-    list_img.append(img2)
-
-
-def multifilter(tab):
-    intensity_blur = int(input("intensité du floutage"))
-    intensity_expand = int(input("intensité de la dilatation"))
-    degree_rotate = int(input("degré d'inclinaison"))
-    resize_x = int(input("taille x"))
-    resize_y = int(input("taille y"))
-    write_text = str(input("texte à intégrer dans l'image"))
-    write_x = int(input("allignement x du texte"))
-    write_y = int(input("allignement y du texte"))
-    for _ in tab:
-        convert_grey(tab[_])
-        blur(tab[_], intensity_blur)
-        expand(tab[_], intensity_expand)
-        rotate(tab[_], degree_rotate)
-        resize(tab[_], resize_x, resize_y)
-        write(tab[_], write_text, write_x, write_y)
-    return None
-
 # # Exemple d'utilisation
 path = "img/moto.jpg"
 
-image = load_image(path)
+image = Image.open(path)
 
-tab_add()
+image=Image.open(path)
+
+def allfilters(image99):
+    image = Image.open("img/"+image99)
+
+    savedfile = currentmodifiedimg
+        
+    image.save(savedfile)
+
+    
+    convert_grey(currentmodifiedimg)
+    image = Image.open(currentmodifiedimg)
+    blur(image,10)
+    image = Image.open(currentmodifiedimg)
+    expand(image, 5)
+    image = Image.open(currentmodifiedimg)
+    rotate(image, 45)
+    image = Image.open(currentmodifiedimg)
+    write(currentmodifiedimg, "Hello", 50, 50)
+    image = Image.open(currentmodifiedimg)
+    watercolor(currentmodifiedimg)
+    image = Image.open(currentmodifiedimg)
+    
+    resize(image, 100, 100)
+    imageaftertext="img/"+"modified"+image99
+    #imageafter = Image.open(imageaftertext)
+    image = Image.open(currentmodifiedimg)
+    image.save(imageaftertext)
+
+#allfilters("villa.jpeg")
+
+
+def allfilterslist():
+    
+    for i in range(len(imagelist2)):
+        print(imagelist2[i])
+        allfilters(imagelist2[i])
+
+def addfilterlist(currentimage):
+    imagelist2.append(currentimage)
+
+
+
+#addfilterlist("villa.jpeg")
+#addfilterlist("moto.jpg")
+#allfilterslist()
+
+    
 # Exemple de conversion en niveaux de gris
-#convert_grey(image)
-
+#convert_grey("img/moto.jpg")
 # Exemple d'application de flou
 #blur(image, 10)
 
@@ -249,3 +364,12 @@ tab_add()
 # watercolor(path)
 
 # gif(image)
+
+image2 = Image.open("img/meuf.jpg")
+#blur(image2,50)
+#convert_grey("img/meuf.jpg")
+#write("img/meuf.jpg", "Hello", 50, 50)
+
+#rotate(image2,90)
+
+detect_faces(image2)

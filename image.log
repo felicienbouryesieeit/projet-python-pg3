@@ -1,0 +1,669 @@
+[2024-12-10 16:08:24] Mise en noir et blanc de l'image : '<PIL.WebPImagePlugin.WebPImageFile image mode=RGB size=800x800 at 0x105EEECF0>'.
+[2024-12-10 16:23:15] Mise en noir et blanc de l'image : '<PIL.Image.Image image mode=L size=800x800 at 0x10561D310>'.
+[2024-12-10 16:25:13] L'image a été mis en noir et blanc
+[2024-12-10 16:30:50] L'image a été dilatée
+[2024-12-10 16:46:03] L'image a été dilatée
+[2024-12-10 16:46:10] L'image a été dilatée
+[2024-12-10 16:46:27] L'image a été dilatée
+[2024-12-10 16:48:22] L'image a été dilatée
+[2024-12-10 16:48:36] L'image a été dilatée
+[2024-12-10 16:51:07] L'image a été dilatée
+[2024-12-10 16:54:18] L'image a été mis en noir et blanc. 
+[2024-12-10 16:54:32] L'image a été mis en noir et blanc. 
+[2024-12-10 16:55:09] L'image a été floutée
+[2024-12-10 16:55:37] L'image a été tournée
+[2024-12-10 16:56:04] L'image a été tournée
+[2024-12-11 09:38:30] L'image avec texte a été sauvegardée sous 'img/image_with_text.jpg'.
+[2024-12-11 09:41:08] L'image avec texte a été sauvegardée sous 'img/image_with_text.jpg'.
+[2024-12-11 10:11:22] L'image avec texte a été sauvegardée sous 'img/image_with_text.jpg'.
+[2024-12-11 10:11:58] L'image avec texte a été sauvegardée sous 'img/image_with_text.jpg'.
+[2024-12-11 10:12:59] L'image avec texte a été sauvegardée sous 'img/image_with_text.jpg'.
+[2024-12-11 10:14:03] L'image avec texte a été sauvegardée sous 'img/image_with_text.jpg'.
+[2024-12-11 10:14:27] L'image avec texte a été sauvegardée sous 'img/image_with_text.jpg'.
+[2024-12-11 10:16:32] L'image avec texte a été sauvegardée sous 'img/image_with_text.jpg'.
+[2024-12-11 10:17:01] L'image avec texte a été sauvegardée sous 'img/image_with_text.jpg'.
+[2024-12-11 10:18:29] L'image avec texte a été sauvegardée sous 'img/image_with_text.jpg'.
+[2024-12-11 10:19:31] L'image avec texte a été sauvegardée sous 'img/image_with_text.jpg'.
+[2024-12-11 10:20:13] L'image avec texte a été sauvegardée sous 'img/image_with_text.jpg'.
+[2024-12-11 10:20:51] L'image avec texte a été sauvegardée sous 'img/image_with_text.jpg'.
+[2024-12-11 10:20:57] L'image avec texte a été sauvegardée sous 'img/image_with_text.jpg'.
+[2024-12-11 10:21:40] L'image avec texte a été sauvegardée sous 'img/image_with_text.jpg'.
+[2024-12-11 10:21:51] L'image avec texte a été sauvegardée sous 'img/image_with_text.jpg'.
+[2024-12-11 10:30:19] L'image avec texte a été sauvegardée sous 'img/image_with_text.jpg'.
+[2024-12-11 10:30:35] Erreur lors de l'ajout de texte à l'image : L'image 'img/moto.jp' est introuvable.
+[2024-12-11 10:31:39] L'image 'img/moto.jpg' a été chargée avec succès.
+[2024-12-11 10:31:40] L'image a été convertie en niveaux de gris et sauvegardée.
+[2024-12-11 10:31:40] L'image a été floutée et sauvegardée.
+[2024-12-11 10:31:40] L'image a été dilatée et sauvegardée.
+[2024-12-11 10:31:41] L'image a été tournée et sauvegardée.
+[2024-12-11 10:31:41] L'image a été redimensionnée et sauvegardée.
+[2024-12-11 10:31:41] L'image avec texte a été sauvegardée sous 'img/image_with_text.jpg'.
+[2024-12-11 10:33:48] L'image 'img/moto.jpg' a été chargée avec succès.
+[2024-12-11 10:33:48] L'image a été convertie en niveaux de gris et sauvegardée.
+[2024-12-11 10:33:49] L'image a été floutée et sauvegardée.
+[2024-12-11 10:33:49] L'image a été dilatée et sauvegardée.
+[2024-12-11 10:33:49] L'image a été tournée et sauvegardée.
+[2024-12-11 10:33:49] L'image a été redimensionnée et sauvegardée.
+[2024-12-11 10:33:49] L'image avec texte a été sauvegardée sous 'img/image_with_text.jpg'.
+[2024-12-11 10:34:59] L'image 'img/moto.jpg' a été chargée avec succès.
+[2024-12-11 10:34:59] L'image a été convertie en niveaux de gris et sauvegardée.
+[2024-12-11 10:34:59] Erreur lors de l'application du flou : L'intensité doit être un entier positif.
+[2024-12-11 10:35:00] L'image a été dilatée et sauvegardée.
+[2024-12-11 10:35:00] L'image a été tournée et sauvegardée.
+[2024-12-11 10:35:00] L'image a été redimensionnée et sauvegardée.
+[2024-12-11 10:35:00] L'image avec texte a été sauvegardée sous 'img/image_with_text.jpg'.
+[2024-12-11 10:37:39] L'image 'img/moto.jpg' a été chargée avec succès.
+[2024-12-11 10:37:39] L'image a été convertie en niveaux de gris et sauvegardée.
+[2024-12-11 10:37:39] L'image a été floutée et sauvegardée.
+[2024-12-11 10:37:40] L'image a été dilatée et sauvegardée.
+[2024-12-11 10:37:40] L'image a été tournée et sauvegardée.
+[2024-12-11 10:37:40] L'image a été redimensionnée et sauvegardée.
+[2024-12-11 10:37:40] L'image avec texte a été sauvegardée sous 'img/image_with_text.jpg'.
+[2024-12-11 10:38:06] L'image 'img/moto.jpg' a été chargée avec succès.
+[2024-12-11 10:38:06] Erreur lors de l'application du flou : L'intensité doit être un entier positif.
+[2024-12-11 11:09:37] L'image 'img/moto.jpg' a été chargée avec succès.
+[2024-12-11 11:09:37] L'image 'img/moto.jpg' a été chargée avec succès.
+[2024-12-11 11:13:10] L'image avec texte a été sauvegardée sous 'img/image_watercolor.jpg'.
+[2024-12-11 11:13:10] L'image 'img/moto.jpg' a été chargée avec succès.
+[2024-12-11 11:15:11] L'image avec texte a été sauvegardée sous 'img/image_watercolor.jpg'.
+[2024-12-11 11:15:12] L'image 'img/moto.jpg' a été chargée avec succès.
+[2024-12-11 11:17:38] L'image 'img/moto.jpg' a été chargée avec succès.
+[2024-12-11 11:17:47] L'image 'img/moto.jpg' a été chargée avec succès.
+[2024-12-11 11:18:38] L'image 'img/moto.jpg' a été chargée avec succès.
+[2024-12-11 11:18:55] L'image 'img/moto.jpg' a été chargée avec succès.
+[2024-12-11 11:19:01] L'image 'img/moto.jpg' a été chargée avec succès.
+[2024-12-11 11:19:19] L'image 'img/moto.jpg' a été chargée avec succès.
+[2024-12-11 11:19:19] L'image a été redimensionnée et sauvegardée.
+[2024-12-11 11:20:27] L'image 'img/moto.jpg' a été chargée avec succès.
+[2024-12-11 11:20:27] L'image avec texte a été sauvegardée sous 'img/image_watercolor.jpg'.
+[2024-12-11 11:21:14] L'image 'img/moto.jpg' a été chargée avec succès.
+[2024-12-11 11:21:53] L'image 'img/moto.jpg' a été chargée avec succès.
+[2024-12-11 11:21:53] Erreur lors de l'ajout de texte à l'image : stat: path should be string, bytes, os.PathLike or integer, not WebPImageFile
+[2024-12-11 11:22:24] L'image 'img/moto.jpg' a été chargée avec succès.
+[2024-12-11 11:22:24] Erreur lors de l'ajout de texte à l'image : stat: path should be string, bytes, os.PathLike or integer, not WebPImageFile
+[2024-12-11 11:22:43] L'image 'img/moto.jpg' a été chargée avec succès.
+[2024-12-11 11:22:44] L'image avec texte a été sauvegardée sous 'img/image_watercolor.jpg'.
+[2024-12-11 11:41:40] L'image 'img/moto.jpg' a été chargée avec succès.
+[2024-12-11 11:41:49] L'image 'img/moto.jpg' a été chargée avec succès.
+[2024-12-11 11:42:37] L'image 'img/moto.jpg' a été chargée avec succès.
+[2024-12-11 11:44:26] L'image 'img/moto.jpg' a été chargée avec succès.
+[2024-12-11 11:47:42] L'image 'img/moto.jpg' a été chargée avec succès.
+[2024-12-11 11:48:14] L'image 'img/moto.jpg' a été chargée avec succès.
+[2024-12-11 11:49:01] L'image 'img/moto.jpg' a été chargée avec succès.
+[2024-12-11 11:49:01] L'image a été convertie en niveaux de gris et sauvegardée.
+[2024-12-11 11:49:48] L'image 'img/moto.jpg' a été chargée avec succès.
+[2024-12-11 11:49:48] L'image a été convertie en niveaux de gris et sauvegardée.
+[2024-12-11 11:49:49] L'image a été floutée et sauvegardée.
+[2024-12-11 11:49:49] L'image a été dilatée et sauvegardée.
+[2024-12-11 11:49:49] L'image a été tournée et sauvegardée.
+[2024-12-11 11:51:23] L'image 'img/moto.jpg' a été chargée avec succès.
+[2024-12-11 11:51:23] L'image a été convertie en niveaux de gris et sauvegardée.
+[2024-12-11 11:52:51] L'image 'img/moto.jpg' a été chargée avec succès.
+[2024-12-11 11:52:51] L'image a été convertie en niveaux de gris et sauvegardée.
+[2024-12-11 11:52:52] L'image a été floutée et sauvegardée.
+[2024-12-11 11:52:57] L'image 'img/moto.jpg' a été chargée avec succès.
+[2024-12-11 11:52:57] L'image a été convertie en niveaux de gris et sauvegardée.
+[2024-12-11 11:52:58] L'image a été floutée et sauvegardée.
+[2024-12-11 11:54:21] L'image 'img/moto.jpg' a été chargée avec succès.
+[2024-12-11 11:54:21] Erreur lors de la conversion en niveaux de gris : 'str' object has no attribute 'convert'
+[2024-12-11 11:54:21] Erreur lors de l'application du flou : 'str' object has no attribute 'filter'
+[2024-12-11 11:59:09] L'image 'img/moto.jpg' a été chargée avec succès.
+[2024-12-11 11:59:09] L'image 'img/moto.jpg' a été chargée avec succès.
+[2024-12-11 11:59:09] L'image 'img/currentmodifiedimg.jpg' a été chargée avec succès.
+[2024-12-11 11:59:09] L'image a été convertie en niveaux de gris et sauvegardée.
+[2024-12-11 11:59:09] L'image 'img/currentmodifiedimg.jpg' a été chargée avec succès.
+[2024-12-11 11:59:10] L'image a été floutée et sauvegardée.
+[2024-12-11 12:00:43] L'image 'img/moto.jpg' a été chargée avec succès.
+[2024-12-11 12:00:43] L'image 'img/moto.jpg' a été chargée avec succès.
+[2024-12-11 12:00:43] L'image 'img/currentmodifiedimg.jpg' a été chargée avec succès.
+[2024-12-11 12:00:43] L'image a été convertie en niveaux de gris et sauvegardée.
+[2024-12-11 12:00:43] L'image 'img/currentmodifiedimg.jpg' a été chargée avec succès.
+[2024-12-11 12:00:44] L'image a été floutée et sauvegardée.
+[2024-12-11 12:01:23] L'image 'img/moto.jpg' a été chargée avec succès.
+[2024-12-11 12:01:23] L'image 'img/moto.jpg' a été chargée avec succès.
+[2024-12-11 12:01:23] L'image 'img/currentmodifiedimg.jpg' a été chargée avec succès.
+[2024-12-11 12:01:23] L'image a été convertie en niveaux de gris et sauvegardée.
+[2024-12-11 12:01:23] L'image 'img/currentmodifiedimg.jpg' a été chargée avec succès.
+[2024-12-11 12:01:23] L'image 'img/currentmodifiedimg.jpg' a été chargée avec succès.
+[2024-12-11 12:01:24] L'image a été floutée et sauvegardée.
+[2024-12-11 12:02:26] L'image 'img/moto.jpg' a été chargée avec succès.
+[2024-12-11 12:02:26] L'image 'img/moto.jpg' a été chargée avec succès.
+[2024-12-11 12:02:26] L'image 'img/currentmodifiedimg.jpg' a été chargée avec succès.
+[2024-12-11 12:02:27] L'image a été convertie en niveaux de gris et sauvegardée.
+[2024-12-11 12:02:27] L'image 'img/currentmodifiedimg.jpg' a été chargée avec succès.
+[2024-12-11 12:02:27] L'image 'img/currentmodifiedimg.jpg' a été chargée avec succès.
+[2024-12-11 12:02:27] L'image a été floutée et sauvegardée.
+[2024-12-11 12:04:53] L'image 'img/moto.jpg' a été chargée avec succès.
+[2024-12-11 12:04:53] L'image 'img/moto.jpg' a été chargée avec succès.
+[2024-12-11 12:04:53] L'image a été convertie en niveaux de gris et sauvegardée.
+[2024-12-11 12:04:53] L'image 'img/currentmodifiedimg.jpg' a été chargée avec succès.
+[2024-12-11 12:04:53] L'image a été floutée et sauvegardée.
+[2024-12-11 12:04:53] L'image 'img/currentmodifiedimg.jpg' a été chargée avec succès.
+[2024-12-11 12:04:54] L'image a été dilatée et sauvegardée.
+[2024-12-11 12:04:54] L'image 'img/currentmodifiedimg.jpg' a été chargée avec succès.
+[2024-12-11 12:04:54] L'image a été tournée et sauvegardée.
+[2024-12-11 12:06:23] L'image 'img/moto.jpg' a été chargée avec succès.
+[2024-12-11 12:06:23] L'image 'img/moto.jpg' a été chargée avec succès.
+[2024-12-11 12:06:23] L'image a été convertie en niveaux de gris et sauvegardée.
+[2024-12-11 12:06:23] L'image 'img/currentmodifiedimg.jpg' a été chargée avec succès.
+[2024-12-11 12:06:23] L'image a été floutée et sauvegardée.
+[2024-12-11 12:06:23] L'image 'img/currentmodifiedimg.jpg' a été chargée avec succès.
+[2024-12-11 12:06:24] L'image a été dilatée et sauvegardée.
+[2024-12-11 12:06:24] L'image 'img/currentmodifiedimg.jpg' a été chargée avec succès.
+[2024-12-11 12:06:24] L'image a été tournée et sauvegardée.
+[2024-12-11 12:07:28] L'image 'img/moto.jpg' a été chargée avec succès.
+[2024-12-11 12:07:28] L'image 'img/moto.jpg' a été chargée avec succès.
+[2024-12-11 12:07:28] L'image a été convertie en niveaux de gris et sauvegardée.
+[2024-12-11 12:07:28] L'image 'img/currentmodifiedimg.jpg' a été chargée avec succès.
+[2024-12-11 12:07:29] L'image a été floutée et sauvegardée.
+[2024-12-11 12:07:29] L'image 'img/currentmodifiedimg.jpg' a été chargée avec succès.
+[2024-12-11 12:07:29] L'image a été dilatée et sauvegardée.
+[2024-12-11 12:07:29] L'image 'img/currentmodifiedimg.jpg' a été chargée avec succès.
+[2024-12-11 12:07:29] L'image a été tournée et sauvegardée.
+[2024-12-11 12:07:29] L'image 'img/currentmodifiedimg.jpg' a été chargée avec succès.
+[2024-12-11 12:07:29] L'image a été redimensionnée et sauvegardée.
+[2024-12-11 12:08:26] L'image 'img/moto.jpg' a été chargée avec succès.
+[2024-12-11 12:08:26] L'image 'img/moto.jpg' a été chargée avec succès.
+[2024-12-11 12:08:26] L'image a été convertie en niveaux de gris et sauvegardée.
+[2024-12-11 12:08:26] L'image 'img/currentmodifiedimg.jpg' a été chargée avec succès.
+[2024-12-11 12:08:26] L'image a été floutée et sauvegardée.
+[2024-12-11 12:08:26] L'image 'img/currentmodifiedimg.jpg' a été chargée avec succès.
+[2024-12-11 12:08:27] L'image a été dilatée et sauvegardée.
+[2024-12-11 12:08:27] L'image 'img/currentmodifiedimg.jpg' a été chargée avec succès.
+[2024-12-11 12:08:27] L'image a été tournée et sauvegardée.
+[2024-12-11 12:08:27] L'image 'img/currentmodifiedimg.jpg' a été chargée avec succès.
+[2024-12-11 12:08:27] L'image a été redimensionnée et sauvegardée.
+[2024-12-11 12:08:27] L'image avec texte a été sauvegardée sous 'img/image_with_text.jpg'.
+[2024-12-11 12:10:34] L'image 'img/moto.jpg' a été chargée avec succès.
+[2024-12-11 12:10:34] L'image 'img/moto.jpg' a été chargée avec succès.
+[2024-12-11 12:10:34] L'image a été convertie en niveaux de gris et sauvegardée.
+[2024-12-11 12:10:34] L'image 'img/currentmodifiedimg.jpg' a été chargée avec succès.
+[2024-12-11 12:10:34] L'image a été floutée et sauvegardée.
+[2024-12-11 12:10:34] L'image 'img/currentmodifiedimg.jpg' a été chargée avec succès.
+[2024-12-11 12:10:35] L'image a été dilatée et sauvegardée.
+[2024-12-11 12:10:35] L'image 'img/currentmodifiedimg.jpg' a été chargée avec succès.
+[2024-12-11 12:10:35] L'image a été tournée et sauvegardée.
+[2024-12-11 12:10:35] L'image 'img/currentmodifiedimg.jpg' a été chargée avec succès.
+[2024-12-11 12:10:35] L'image avec texte a été sauvegardée sous 'img/image_with_text.jpg'.
+[2024-12-11 12:11:39] L'image 'img/moto.jpg' a été chargée avec succès.
+[2024-12-11 12:11:39] L'image 'img/moto.jpg' a été chargée avec succès.
+[2024-12-11 12:11:39] L'image a été convertie en niveaux de gris et sauvegardée.
+[2024-12-11 12:11:39] L'image 'img/currentmodifiedimg.jpg' a été chargée avec succès.
+[2024-12-11 12:11:39] L'image a été floutée et sauvegardée.
+[2024-12-11 12:11:39] L'image 'img/currentmodifiedimg.jpg' a été chargée avec succès.
+[2024-12-11 12:11:40] L'image a été dilatée et sauvegardée.
+[2024-12-11 12:11:40] L'image 'img/currentmodifiedimg.jpg' a été chargée avec succès.
+[2024-12-11 12:11:40] L'image a été tournée et sauvegardée.
+[2024-12-11 12:11:40] L'image 'img/currentmodifiedimg.jpg' a été chargée avec succès.
+[2024-12-11 12:11:40] L'image avec texte a été sauvegardée sous 'img/image_with_text.jpg'.
+[2024-12-11 12:11:40] L'image avec texte a été sauvegardée sous 'img/image_watercolor.jpg'.
+[2024-12-11 12:11:41] L'image a été redimensionnée et sauvegardée.
+[2024-12-11 12:12:59] L'image 'img/moto.jpg' a été chargée avec succès.
+[2024-12-11 12:12:59] L'image 'img/moto.jpg' a été chargée avec succès.
+[2024-12-11 12:12:59] L'image a été convertie en niveaux de gris et sauvegardée.
+[2024-12-11 12:12:59] L'image 'img/currentmodifiedimg.jpg' a été chargée avec succès.
+[2024-12-11 12:12:59] L'image a été floutée et sauvegardée.
+[2024-12-11 12:12:59] L'image 'img/currentmodifiedimg.jpg' a été chargée avec succès.
+[2024-12-11 12:13:00] L'image a été dilatée et sauvegardée.
+[2024-12-11 12:13:00] L'image 'img/currentmodifiedimg.jpg' a été chargée avec succès.
+[2024-12-11 12:13:00] L'image a été tournée et sauvegardée.
+[2024-12-11 12:13:00] L'image 'img/currentmodifiedimg.jpg' a été chargée avec succès.
+[2024-12-11 12:13:00] L'image avec texte a été sauvegardée sous 'img/currentmodifiedimg.jpg'.
+[2024-12-11 12:13:00] L'image avec texte a été sauvegardée sous 'img/currentmodifiedimg.jpg'.
+[2024-12-11 12:13:01] L'image a été redimensionnée et sauvegardée.
+[2024-12-11 12:13:48] L'image 'img/moto.jpg' a été chargée avec succès.
+[2024-12-11 12:13:48] L'image 'img/moto.jpg' a été chargée avec succès.
+[2024-12-11 12:13:48] L'image a été convertie en niveaux de gris et sauvegardée.
+[2024-12-11 12:13:48] L'image 'img/currentmodifiedimg.jpg' a été chargée avec succès.
+[2024-12-11 12:13:48] L'image a été floutée et sauvegardée.
+[2024-12-11 12:13:48] L'image 'img/currentmodifiedimg.jpg' a été chargée avec succès.
+[2024-12-11 12:13:48] L'image a été dilatée et sauvegardée.
+[2024-12-11 12:13:48] L'image 'img/currentmodifiedimg.jpg' a été chargée avec succès.
+[2024-12-11 12:13:48] L'image a été tournée et sauvegardée.
+[2024-12-11 12:13:48] L'image 'img/currentmodifiedimg.jpg' a été chargée avec succès.
+[2024-12-11 12:13:48] L'image avec texte a été sauvegardée sous 'img/currentmodifiedimg.jpg'.
+[2024-12-11 12:13:48] L'image 'img/currentmodifiedimg.jpg' a été chargée avec succès.
+[2024-12-11 12:13:49] L'image avec texte a été sauvegardée sous 'img/currentmodifiedimg.jpg'.
+[2024-12-11 12:13:49] L'image 'img/currentmodifiedimg.jpg' a été chargée avec succès.
+[2024-12-11 12:13:49] L'image a été redimensionnée et sauvegardée.
+[2024-12-11 12:15:32] L'image a été convertie en niveaux de gris et sauvegardée.
+[2024-12-11 12:15:32] L'image a été floutée et sauvegardée.
+[2024-12-11 12:15:32] L'image a été dilatée et sauvegardée.
+[2024-12-11 12:15:32] L'image a été tournée et sauvegardée.
+[2024-12-11 12:15:32] L'image avec texte a été sauvegardée sous 'img/currentmodifiedimg.jpg'.
+[2024-12-11 12:15:33] L'image avec texte a été sauvegardée sous 'img/currentmodifiedimg.jpg'.
+[2024-12-11 12:15:33] L'image a été redimensionnée et sauvegardée.
+[2024-12-11 12:15:45] L'image a été convertie en niveaux de gris et sauvegardée.
+[2024-12-11 12:15:45] L'image a été floutée et sauvegardée.
+[2024-12-11 12:15:45] L'image a été dilatée et sauvegardée.
+[2024-12-11 12:15:45] L'image a été tournée et sauvegardée.
+[2024-12-11 12:15:45] L'image avec texte a été sauvegardée sous 'img/currentmodifiedimg.jpg'.
+[2024-12-11 12:15:45] L'image avec texte a été sauvegardée sous 'img/currentmodifiedimg.jpg'.
+[2024-12-11 12:15:46] L'image a été redimensionnée et sauvegardée.
+[2024-12-11 12:17:40] L'image a été convertie en niveaux de gris et sauvegardée.
+[2024-12-11 12:17:40] L'image a été floutée et sauvegardée.
+[2024-12-11 12:17:40] L'image a été dilatée et sauvegardée.
+[2024-12-11 12:17:40] L'image a été tournée et sauvegardée.
+[2024-12-11 12:17:40] L'image avec texte a été sauvegardée sous 'img/currentmodifiedimg.jpg'.
+[2024-12-11 12:17:41] L'image avec texte a été sauvegardée sous 'img/currentmodifiedimg.jpg'.
+[2024-12-11 12:17:41] L'image a été redimensionnée et sauvegardée.
+[2024-12-11 12:18:44] L'image a été convertie en niveaux de gris et sauvegardée.
+[2024-12-11 12:18:47] L'image a été floutée et sauvegardée.
+[2024-12-11 12:18:50] L'image a été dilatée et sauvegardée.
+[2024-12-11 12:18:52] L'image a été tournée et sauvegardée.
+[2024-12-11 12:18:52] L'image avec texte a été sauvegardée sous 'img/currentmodifiedimg.jpg'.
+[2024-12-11 12:18:54] L'image avec texte a été sauvegardée sous 'img/currentmodifiedimg.jpg'.
+[2024-12-11 12:18:55] L'image a été redimensionnée et sauvegardée.
+[2024-12-11 12:19:41] L'image a été convertie en niveaux de gris et sauvegardée.
+[2024-12-11 12:19:41] L'image a été floutée et sauvegardée.
+[2024-12-11 12:19:42] L'image a été dilatée et sauvegardée.
+[2024-12-11 12:19:42] L'image a été tournée et sauvegardée.
+[2024-12-11 12:19:42] L'image avec texte a été sauvegardée sous 'img/currentmodifiedimg.jpg'.
+[2024-12-11 12:19:42] L'image avec texte a été sauvegardée sous 'img/currentmodifiedimg.jpg'.
+[2024-12-11 12:19:42] L'image a été redimensionnée et sauvegardée.
+[2024-12-11 12:20:26] L'image a été convertie en niveaux de gris et sauvegardée.
+[2024-12-11 12:20:26] L'image a été floutée et sauvegardée.
+[2024-12-11 12:20:26] L'image a été dilatée et sauvegardée.
+[2024-12-11 12:20:26] L'image a été tournée et sauvegardée.
+[2024-12-11 12:20:26] L'image avec texte a été sauvegardée sous 'img/currentmodifiedimg.jpg'.
+[2024-12-11 12:20:27] L'image avec texte a été sauvegardée sous 'img/currentmodifiedimg.jpg'.
+[2024-12-11 12:20:27] L'image a été redimensionnée et sauvegardée.
+[2024-12-11 12:23:58] L'image a été convertie en niveaux de gris et sauvegardée.
+[2024-12-11 12:23:59] L'image a été floutée et sauvegardée.
+[2024-12-11 12:23:59] L'image a été dilatée et sauvegardée.
+[2024-12-11 12:23:59] L'image a été tournée et sauvegardée.
+[2024-12-11 12:23:59] L'image avec texte a été sauvegardée sous 'img/currentmodifiedimg.jpg'.
+[2024-12-11 12:23:59] L'image avec texte a été sauvegardée sous 'img/currentmodifiedimg.jpg'.
+[2024-12-11 12:24:00] L'image a été redimensionnée et sauvegardée.
+[2024-12-11 12:25:33] L'image a été convertie en niveaux de gris et sauvegardée.
+[2024-12-11 12:25:34] L'image a été floutée et sauvegardée.
+[2024-12-11 12:25:34] L'image a été dilatée et sauvegardée.
+[2024-12-11 12:25:34] L'image a été tournée et sauvegardée.
+[2024-12-11 12:25:34] L'image avec texte a été sauvegardée sous 'img/currentmodifiedimg.jpg'.
+[2024-12-11 12:25:34] L'image avec texte a été sauvegardée sous 'img/currentmodifiedimg.jpg'.
+[2024-12-11 12:25:35] L'image a été redimensionnée et sauvegardée.
+[2024-12-11 12:25:45] L'image a été convertie en niveaux de gris et sauvegardée.
+[2024-12-11 12:25:47] L'image a été floutée et sauvegardée.
+[2024-12-11 12:25:48] L'image a été dilatée et sauvegardée.
+[2024-12-11 12:25:49] L'image a été tournée et sauvegardée.
+[2024-12-11 12:25:49] L'image avec texte a été sauvegardée sous 'img/currentmodifiedimg.jpg'.
+[2024-12-11 12:25:50] L'image avec texte a été sauvegardée sous 'img/currentmodifiedimg.jpg'.
+[2024-12-11 12:25:50] L'image a été redimensionnée et sauvegardée.
+[2024-12-11 12:26:15] L'image a été convertie en niveaux de gris et sauvegardée.
+[2024-12-11 12:26:17] L'image a été floutée et sauvegardée.
+[2024-12-11 12:26:18] L'image a été dilatée et sauvegardée.
+[2024-12-11 12:26:19] L'image a été tournée et sauvegardée.
+[2024-12-11 12:26:19] L'image avec texte a été sauvegardée sous 'img/currentmodifiedimg.jpg'.
+[2024-12-11 12:26:20] L'image avec texte a été sauvegardée sous 'img/currentmodifiedimg.jpg'.
+[2024-12-11 12:26:20] L'image a été redimensionnée et sauvegardée.
+[2024-12-11 12:26:35] L'image a été convertie en niveaux de gris et sauvegardée.
+[2024-12-11 12:26:36] L'image a été floutée et sauvegardée.
+[2024-12-11 12:26:38] L'image a été dilatée et sauvegardée.
+[2024-12-11 12:26:38] L'image a été tournée et sauvegardée.
+[2024-12-11 12:26:38] L'image avec texte a été sauvegardée sous 'img/currentmodifiedimg.jpg'.
+[2024-12-11 12:26:39] L'image avec texte a été sauvegardée sous 'img/currentmodifiedimg.jpg'.
+[2024-12-11 12:26:40] L'image a été redimensionnée et sauvegardée.
+[2024-12-11 12:27:30] L'image a été convertie en niveaux de gris et sauvegardée.
+[2024-12-11 12:27:31] L'image a été floutée et sauvegardée.
+[2024-12-11 12:27:32] L'image a été dilatée et sauvegardée.
+[2024-12-11 12:27:33] L'image a été tournée et sauvegardée.
+[2024-12-11 12:27:33] L'image avec texte a été sauvegardée sous 'img/currentmodifiedimg.jpg'.
+[2024-12-11 12:27:34] L'image avec texte a été sauvegardée sous 'img/currentmodifiedimg.jpg'.
+[2024-12-11 12:27:34] L'image a été redimensionnée et sauvegardée.
+[2024-12-11 13:44:00] L'image a été convertie en niveaux de gris et sauvegardée.
+[2024-12-11 13:44:02] L'image a été floutée et sauvegardée.
+[2024-12-11 13:44:03] L'image a été dilatée et sauvegardée.
+[2024-12-11 13:44:04] L'image a été tournée et sauvegardée.
+[2024-12-11 13:44:04] L'image avec texte a été sauvegardée sous 'img/currentmodifiedimg.jpg'.
+[2024-12-11 13:44:05] L'image avec texte a été sauvegardée sous 'img/currentmodifiedimg.jpg'.
+[2024-12-11 13:44:05] L'image a été redimensionnée et sauvegardée.
+[2024-12-11 13:46:20] L'image a été convertie en niveaux de gris et sauvegardée.
+[2024-12-11 13:46:21] L'image a été floutée et sauvegardée.
+[2024-12-11 13:46:23] L'image a été dilatée et sauvegardée.
+[2024-12-11 13:46:24] L'image a été tournée et sauvegardée.
+[2024-12-11 13:46:24] L'image avec texte a été sauvegardée sous 'img/currentmodifiedimg.jpg'.
+[2024-12-11 13:46:25] L'image avec texte a été sauvegardée sous 'img/currentmodifiedimg.jpg'.
+[2024-12-11 13:46:25] L'image a été redimensionnée et sauvegardée.
+[2024-12-11 13:49:16] L'image a été convertie en niveaux de gris et sauvegardée.
+[2024-12-11 13:49:17] L'image a été floutée et sauvegardée.
+[2024-12-11 13:49:19] L'image a été dilatée et sauvegardée.
+[2024-12-11 13:49:19] L'image a été tournée et sauvegardée.
+[2024-12-11 13:49:19] L'image avec texte a été sauvegardée sous 'img/currentmodifiedimg.jpg'.
+[2024-12-11 13:49:20] L'image avec texte a été sauvegardée sous 'img/currentmodifiedimg.jpg'.
+[2024-12-11 13:49:21] L'image a été redimensionnée et sauvegardée.
+[2024-12-11 13:50:07] L'image a été convertie en niveaux de gris et sauvegardée.
+[2024-12-11 13:50:08] L'image a été floutée et sauvegardée.
+[2024-12-11 13:50:09] L'image a été dilatée et sauvegardée.
+[2024-12-11 13:50:10] L'image a été tournée et sauvegardée.
+[2024-12-11 13:50:10] L'image avec texte a été sauvegardée sous 'img/currentmodifiedimg.jpg'.
+[2024-12-11 13:50:11] L'image avec texte a été sauvegardée sous 'img/currentmodifiedimg.jpg'.
+[2024-12-11 13:50:12] L'image a été redimensionnée et sauvegardée.
+[2024-12-11 13:55:06] L'image a été convertie en niveaux de gris et sauvegardée.
+[2024-12-11 13:55:07] L'image a été floutée et sauvegardée.
+[2024-12-11 13:55:08] L'image a été dilatée et sauvegardée.
+[2024-12-11 13:55:09] L'image a été tournée et sauvegardée.
+[2024-12-11 13:55:09] L'image avec texte a été sauvegardée sous 'img/currentmodifiedimg.jpg'.
+[2024-12-11 13:55:10] L'image avec texte a été sauvegardée sous 'img/currentmodifiedimg.jpg'.
+[2024-12-11 13:55:11] L'image a été redimensionnée et sauvegardée.
+[2024-12-11 13:55:13] L'image a été convertie en niveaux de gris et sauvegardée.
+[2024-12-11 13:55:14] L'image a été floutée et sauvegardée.
+[2024-12-11 13:55:16] L'image a été dilatée et sauvegardée.
+[2024-12-11 13:55:16] L'image a été tournée et sauvegardée.
+[2024-12-11 13:55:17] L'image avec texte a été sauvegardée sous 'img/currentmodifiedimg.jpg'.
+[2024-12-11 13:55:17] L'image avec texte a été sauvegardée sous 'img/currentmodifiedimg.jpg'.
+[2024-12-11 13:55:18] L'image a été redimensionnée et sauvegardée.
+[2024-12-11 13:55:18] L'image a été convertie en niveaux de gris et sauvegardée.
+[2024-12-11 13:55:18] L'image a été floutée et sauvegardée.
+[2024-12-11 13:55:19] L'image a été dilatée et sauvegardée.
+[2024-12-11 13:55:19] L'image a été tournée et sauvegardée.
+[2024-12-11 13:55:19] L'image avec texte a été sauvegardée sous 'img/currentmodifiedimg.jpg'.
+[2024-12-11 13:55:19] L'image avec texte a été sauvegardée sous 'img/currentmodifiedimg.jpg'.
+[2024-12-11 13:55:20] L'image a été redimensionnée et sauvegardée.
+[2024-12-11 13:57:08] L'image a été convertie en niveaux de gris et sauvegardée.
+[2024-12-11 13:57:10] L'image a été floutée et sauvegardée.
+[2024-12-11 13:57:11] L'image a été dilatée et sauvegardée.
+[2024-12-11 13:57:12] L'image a été tournée et sauvegardée.
+[2024-12-11 13:57:12] L'image avec texte a été sauvegardée sous 'img/currentmodifiedimg.jpg'.
+[2024-12-11 13:57:13] L'image avec texte a été sauvegardée sous 'img/currentmodifiedimg.jpg'.
+[2024-12-11 13:57:13] L'image a été redimensionnée et sauvegardée.
+[2024-12-11 13:57:16] L'image a été convertie en niveaux de gris et sauvegardée.
+[2024-12-11 13:57:17] L'image a été floutée et sauvegardée.
+[2024-12-11 13:57:18] L'image a été dilatée et sauvegardée.
+[2024-12-11 13:57:19] L'image a été tournée et sauvegardée.
+[2024-12-11 13:57:19] L'image avec texte a été sauvegardée sous 'img/currentmodifiedimg.jpg'.
+[2024-12-11 13:57:20] L'image avec texte a été sauvegardée sous 'img/currentmodifiedimg.jpg'.
+[2024-12-11 13:57:20] L'image a été redimensionnée et sauvegardée.
+[2024-12-11 13:57:21] L'image a été convertie en niveaux de gris et sauvegardée.
+[2024-12-11 13:57:21] L'image a été floutée et sauvegardée.
+[2024-12-11 13:57:21] L'image a été dilatée et sauvegardée.
+[2024-12-11 13:57:21] L'image a été tournée et sauvegardée.
+[2024-12-11 13:57:21] L'image avec texte a été sauvegardée sous 'img/currentmodifiedimg.jpg'.
+[2024-12-11 13:57:21] L'image avec texte a été sauvegardée sous 'img/currentmodifiedimg.jpg'.
+[2024-12-11 13:57:23] L'image a été redimensionnée et sauvegardée.
+[2024-12-11 14:00:08] L'image a été convertie en niveaux de gris et sauvegardée.
+[2024-12-11 14:00:08] L'image a été floutée et sauvegardée.
+[2024-12-11 14:00:09] L'image a été dilatée et sauvegardée.
+[2024-12-11 14:00:09] L'image a été tournée et sauvegardée.
+[2024-12-11 14:00:09] L'image avec texte a été sauvegardée sous 'img/currentmodifiedimg.jpg'.
+[2024-12-11 14:00:09] L'image avec texte a été sauvegardée sous 'img/currentmodifiedimg.jpg'.
+[2024-12-11 14:00:09] L'image a été redimensionnée et sauvegardée.
+[2024-12-11 14:00:10] L'image a été convertie en niveaux de gris et sauvegardée.
+[2024-12-11 14:00:10] L'image a été floutée et sauvegardée.
+[2024-12-11 14:00:10] L'image a été dilatée et sauvegardée.
+[2024-12-11 14:00:10] L'image a été tournée et sauvegardée.
+[2024-12-11 14:00:10] L'image avec texte a été sauvegardée sous 'img/currentmodifiedimg.jpg'.
+[2024-12-11 14:00:10] L'image avec texte a été sauvegardée sous 'img/currentmodifiedimg.jpg'.
+[2024-12-11 14:00:10] L'image a été redimensionnée et sauvegardée.
+[2024-12-11 14:24:05] L'image a été convertie en niveaux de gris et sauvegardée.
+[2024-12-11 14:24:05] L'image a été floutée et sauvegardée.
+[2024-12-11 14:24:06] L'image a été dilatée et sauvegardée.
+[2024-12-11 14:24:06] L'image a été tournée et sauvegardée.
+[2024-12-11 14:24:06] L'image avec texte a été sauvegardée sous 'img/currentmodifiedimg.jpg'.
+[2024-12-11 14:24:06] L'image avec texte a été sauvegardée sous 'img/currentmodifiedimg.jpg'.
+[2024-12-11 14:24:06] L'image a été redimensionnée et sauvegardée.
+[2024-12-11 14:24:07] L'image a été convertie en niveaux de gris et sauvegardée.
+[2024-12-11 14:24:07] L'image a été floutée et sauvegardée.
+[2024-12-11 14:24:07] L'image a été dilatée et sauvegardée.
+[2024-12-11 14:24:07] L'image a été tournée et sauvegardée.
+[2024-12-11 14:24:07] L'image avec texte a été sauvegardée sous 'img/currentmodifiedimg.jpg'.
+[2024-12-11 14:24:07] L'image avec texte a été sauvegardée sous 'img/currentmodifiedimg.jpg'.
+[2024-12-11 14:24:07] L'image a été redimensionnée et sauvegardée.
+[2024-12-11 14:29:24] L'image a été convertie en niveaux de gris et sauvegardée.
+[2024-12-11 14:29:24] L'image a été floutée et sauvegardée.
+[2024-12-11 14:29:25] L'image a été dilatée et sauvegardée.
+[2024-12-11 14:29:25] L'image a été tournée et sauvegardée.
+[2024-12-11 14:29:25] L'image avec texte a été sauvegardée sous 'img/currentmodifiedimg.jpg'.
+[2024-12-11 14:29:25] L'image avec texte a été sauvegardée sous 'img/currentmodifiedimg.jpg'.
+[2024-12-11 14:29:25] L'image a été redimensionnée et sauvegardée.
+[2024-12-11 14:29:25] L'image a été convertie en niveaux de gris et sauvegardée.
+[2024-12-11 14:29:25] L'image a été floutée et sauvegardée.
+[2024-12-11 14:29:26] L'image a été dilatée et sauvegardée.
+[2024-12-11 14:29:26] L'image a été tournée et sauvegardée.
+[2024-12-11 14:29:26] L'image avec texte a été sauvegardée sous 'img/currentmodifiedimg.jpg'.
+[2024-12-11 14:29:26] L'image avec texte a été sauvegardée sous 'img/currentmodifiedimg.jpg'.
+[2024-12-11 14:29:26] L'image a été redimensionnée et sauvegardée.
+[2024-12-11 14:34:32] L'image a été convertie en niveaux de gris et sauvegardée.
+[2024-12-11 14:34:32] L'image a été floutée et sauvegardée.
+[2024-12-11 14:34:33] L'image a été dilatée et sauvegardée.
+[2024-12-11 14:34:33] L'image a été tournée et sauvegardée.
+[2024-12-11 14:34:33] L'image avec texte a été sauvegardée sous 'img/currentmodifiedimg.jpg'.
+[2024-12-11 14:34:33] L'image avec texte a été sauvegardée sous 'img/currentmodifiedimg.jpg'.
+[2024-12-11 14:34:33] L'image a été redimensionnée et sauvegardée.
+[2024-12-11 14:34:34] L'image a été convertie en niveaux de gris et sauvegardée.
+[2024-12-11 14:34:34] L'image a été floutée et sauvegardée.
+[2024-12-11 14:34:34] L'image a été dilatée et sauvegardée.
+[2024-12-11 14:34:34] L'image a été tournée et sauvegardée.
+[2024-12-11 14:34:34] L'image avec texte a été sauvegardée sous 'img/currentmodifiedimg.jpg'.
+[2024-12-11 14:34:34] L'image avec texte a été sauvegardée sous 'img/currentmodifiedimg.jpg'.
+[2024-12-11 14:34:34] L'image a été redimensionnée et sauvegardée.
+[2024-12-11 14:38:02] L'image a été convertie en niveaux de gris et sauvegardée.
+[2024-12-11 14:38:02] L'image a été floutée et sauvegardée.
+[2024-12-11 14:38:03] L'image a été dilatée et sauvegardée.
+[2024-12-11 14:38:03] L'image a été tournée et sauvegardée.
+[2024-12-11 14:38:03] L'image avec texte a été sauvegardée sous 'img/currentmodifiedimg.jpg'.
+[2024-12-11 14:38:03] L'image avec texte a été sauvegardée sous 'img/currentmodifiedimg.jpg'.
+[2024-12-11 14:38:03] L'image a été redimensionnée et sauvegardée.
+[2024-12-11 14:38:04] L'image a été convertie en niveaux de gris et sauvegardée.
+[2024-12-11 14:38:04] L'image a été floutée et sauvegardée.
+[2024-12-11 14:38:04] L'image a été dilatée et sauvegardée.
+[2024-12-11 14:38:04] L'image a été tournée et sauvegardée.
+[2024-12-11 14:38:04] L'image avec texte a été sauvegardée sous 'img/currentmodifiedimg.jpg'.
+[2024-12-11 14:38:04] L'image avec texte a été sauvegardée sous 'img/currentmodifiedimg.jpg'.
+[2024-12-11 14:38:04] L'image a été redimensionnée et sauvegardée.
+[2024-12-11 14:40:06] L'image a été convertie en niveaux de gris et sauvegardée.
+[2024-12-11 14:40:07] L'image a été floutée et sauvegardée.
+[2024-12-11 14:40:07] L'image a été dilatée et sauvegardée.
+[2024-12-11 14:40:07] L'image a été tournée et sauvegardée.
+[2024-12-11 14:40:07] L'image avec texte a été sauvegardée sous 'img/currentmodifiedimg.jpg'.
+[2024-12-11 14:40:08] L'image avec texte a été sauvegardée sous 'img/currentmodifiedimg.jpg'.
+[2024-12-11 14:40:08] L'image a été redimensionnée et sauvegardée.
+[2024-12-11 14:40:08] L'image a été convertie en niveaux de gris et sauvegardée.
+[2024-12-11 14:40:08] L'image a été floutée et sauvegardée.
+[2024-12-11 14:40:08] L'image a été dilatée et sauvegardée.
+[2024-12-11 14:40:08] L'image a été tournée et sauvegardée.
+[2024-12-11 14:40:08] L'image avec texte a été sauvegardée sous 'img/currentmodifiedimg.jpg'.
+[2024-12-11 14:40:08] L'image avec texte a été sauvegardée sous 'img/currentmodifiedimg.jpg'.
+[2024-12-11 14:40:08] L'image a été redimensionnée et sauvegardée.
+[2024-12-11 14:40:32] L'image a été convertie en niveaux de gris et sauvegardée.
+[2024-12-11 14:40:33] L'image a été floutée et sauvegardée.
+[2024-12-11 14:40:34] L'image a été dilatée et sauvegardée.
+[2024-12-11 14:40:34] L'image a été tournée et sauvegardée.
+[2024-12-11 14:40:34] L'image avec texte a été sauvegardée sous 'img/currentmodifiedimg.jpg'.
+[2024-12-11 14:40:34] L'image avec texte a été sauvegardée sous 'img/currentmodifiedimg.jpg'.
+[2024-12-11 14:40:34] L'image a été redimensionnée et sauvegardée.
+[2024-12-11 14:40:34] L'image a été convertie en niveaux de gris et sauvegardée.
+[2024-12-11 14:40:34] L'image a été floutée et sauvegardée.
+[2024-12-11 14:40:34] L'image a été dilatée et sauvegardée.
+[2024-12-11 14:40:34] L'image a été tournée et sauvegardée.
+[2024-12-11 14:40:34] L'image avec texte a été sauvegardée sous 'img/currentmodifiedimg.jpg'.
+[2024-12-11 14:40:34] L'image avec texte a été sauvegardée sous 'img/currentmodifiedimg.jpg'.
+[2024-12-11 14:40:34] L'image a été redimensionnée et sauvegardée.
+[2024-12-11 14:41:51] L'image a été convertie en niveaux de gris et sauvegardée.
+[2024-12-11 14:41:51] L'image a été floutée et sauvegardée.
+[2024-12-11 14:41:52] L'image a été dilatée et sauvegardée.
+[2024-12-11 14:41:52] L'image a été tournée et sauvegardée.
+[2024-12-11 14:41:52] L'image avec texte a été sauvegardée sous 'img/currentmodifiedimg.jpg'.
+[2024-12-11 14:41:52] L'image avec texte a été sauvegardée sous 'img/currentmodifiedimg.jpg'.
+[2024-12-11 14:41:52] L'image a été redimensionnée et sauvegardée.
+[2024-12-11 14:41:52] L'image a été convertie en niveaux de gris et sauvegardée.
+[2024-12-11 14:41:52] L'image a été floutée et sauvegardée.
+[2024-12-11 14:41:52] L'image a été dilatée et sauvegardée.
+[2024-12-11 14:41:52] L'image a été tournée et sauvegardée.
+[2024-12-11 14:41:52] L'image avec texte a été sauvegardée sous 'img/currentmodifiedimg.jpg'.
+[2024-12-11 14:41:53] L'image avec texte a été sauvegardée sous 'img/currentmodifiedimg.jpg'.
+[2024-12-11 14:41:53] L'image a été redimensionnée et sauvegardée.
+[2024-12-11 14:42:18] L'image a été convertie en niveaux de gris et sauvegardée.
+[2024-12-11 14:42:19] L'image a été floutée et sauvegardée.
+[2024-12-11 14:42:20] L'image a été dilatée et sauvegardée.
+[2024-12-11 14:42:20] L'image a été tournée et sauvegardée.
+[2024-12-11 14:42:20] L'image avec texte a été sauvegardée sous 'img/currentmodifiedimg.jpg'.
+[2024-12-11 14:42:20] L'image avec texte a été sauvegardée sous 'img/currentmodifiedimg.jpg'.
+[2024-12-11 14:42:20] L'image a été redimensionnée et sauvegardée.
+[2024-12-11 14:42:20] L'image a été convertie en niveaux de gris et sauvegardée.
+[2024-12-11 14:42:20] L'image a été floutée et sauvegardée.
+[2024-12-11 14:42:20] L'image a été dilatée et sauvegardée.
+[2024-12-11 14:42:20] L'image a été tournée et sauvegardée.
+[2024-12-11 14:42:20] L'image avec texte a été sauvegardée sous 'img/currentmodifiedimg.jpg'.
+[2024-12-11 14:42:20] L'image avec texte a été sauvegardée sous 'img/currentmodifiedimg.jpg'.
+[2024-12-11 14:42:20] L'image a été redimensionnée et sauvegardée.
+[2024-12-11 14:42:40] L'image a été convertie en niveaux de gris et sauvegardée.
+[2024-12-11 14:42:40] L'image a été floutée et sauvegardée.
+[2024-12-11 14:42:41] L'image a été dilatée et sauvegardée.
+[2024-12-11 14:42:41] L'image a été tournée et sauvegardée.
+[2024-12-11 14:42:41] L'image avec texte a été sauvegardée sous 'img/currentmodifiedimg.jpg'.
+[2024-12-11 14:42:41] L'image avec texte a été sauvegardée sous 'img/currentmodifiedimg.jpg'.
+[2024-12-11 14:42:41] L'image a été redimensionnée et sauvegardée.
+[2024-12-11 14:42:42] L'image a été convertie en niveaux de gris et sauvegardée.
+[2024-12-11 14:42:42] L'image a été floutée et sauvegardée.
+[2024-12-11 14:42:42] L'image a été dilatée et sauvegardée.
+[2024-12-11 14:42:42] L'image a été tournée et sauvegardée.
+[2024-12-11 14:42:42] L'image avec texte a été sauvegardée sous 'img/currentmodifiedimg.jpg'.
+[2024-12-11 14:42:42] L'image avec texte a été sauvegardée sous 'img/currentmodifiedimg.jpg'.
+[2024-12-11 14:42:42] L'image a été redimensionnée et sauvegardée.
+[2024-12-11 14:42:52] L'image a été convertie en niveaux de gris et sauvegardée.
+[2024-12-11 14:42:52] L'image a été floutée et sauvegardée.
+[2024-12-11 14:42:53] L'image a été dilatée et sauvegardée.
+[2024-12-11 14:42:53] L'image a été tournée et sauvegardée.
+[2024-12-11 14:42:53] L'image avec texte a été sauvegardée sous 'img/currentmodifiedimg.jpg'.
+[2024-12-11 14:42:53] L'image avec texte a été sauvegardée sous 'img/currentmodifiedimg.jpg'.
+[2024-12-11 14:42:53] L'image a été redimensionnée et sauvegardée.
+[2024-12-11 14:42:54] L'image a été convertie en niveaux de gris et sauvegardée.
+[2024-12-11 14:42:54] L'image a été floutée et sauvegardée.
+[2024-12-11 14:42:54] L'image a été dilatée et sauvegardée.
+[2024-12-11 14:42:54] L'image a été tournée et sauvegardée.
+[2024-12-11 14:42:54] L'image avec texte a été sauvegardée sous 'img/currentmodifiedimg.jpg'.
+[2024-12-11 14:42:54] L'image avec texte a été sauvegardée sous 'img/currentmodifiedimg.jpg'.
+[2024-12-11 14:42:54] L'image a été redimensionnée et sauvegardée.
+[2024-12-11 14:43:33] L'image a été convertie en niveaux de gris et sauvegardée.
+[2024-12-11 14:43:33] L'image a été floutée et sauvegardée.
+[2024-12-11 14:43:34] L'image a été dilatée et sauvegardée.
+[2024-12-11 14:43:34] L'image a été tournée et sauvegardée.
+[2024-12-11 14:43:34] L'image avec texte a été sauvegardée sous 'img/currentmodifiedimg.jpg'.
+[2024-12-11 14:43:34] L'image avec texte a été sauvegardée sous 'img/currentmodifiedimg.jpg'.
+[2024-12-11 14:43:34] L'image a été redimensionnée et sauvegardée.
+[2024-12-11 14:43:35] L'image a été convertie en niveaux de gris et sauvegardée.
+[2024-12-11 14:43:35] L'image a été floutée et sauvegardée.
+[2024-12-11 14:43:35] L'image a été dilatée et sauvegardée.
+[2024-12-11 14:43:35] L'image a été tournée et sauvegardée.
+[2024-12-11 14:43:35] L'image avec texte a été sauvegardée sous 'img/currentmodifiedimg.jpg'.
+[2024-12-11 14:43:35] L'image avec texte a été sauvegardée sous 'img/currentmodifiedimg.jpg'.
+[2024-12-11 14:43:35] L'image a été redimensionnée et sauvegardée.
+[2024-12-11 14:45:05] L'image a été convertie en niveaux de gris et sauvegardée.
+[2024-12-11 14:45:05] L'image a été floutée et sauvegardée.
+[2024-12-11 14:45:06] L'image a été dilatée et sauvegardée.
+[2024-12-11 14:45:06] L'image a été tournée et sauvegardée.
+[2024-12-11 14:45:06] L'image avec texte a été sauvegardée sous 'img/currentmodifiedimg.jpg'.
+[2024-12-11 14:45:06] L'image avec texte a été sauvegardée sous 'img/currentmodifiedimg.jpg'.
+[2024-12-11 14:45:06] L'image a été redimensionnée et sauvegardée.
+[2024-12-11 14:45:06] L'image a été convertie en niveaux de gris et sauvegardée.
+[2024-12-11 14:45:06] L'image a été floutée et sauvegardée.
+[2024-12-11 14:45:06] L'image a été dilatée et sauvegardée.
+[2024-12-11 14:45:06] L'image a été tournée et sauvegardée.
+[2024-12-11 14:45:06] L'image avec texte a été sauvegardée sous 'img/currentmodifiedimg.jpg'.
+[2024-12-11 14:45:06] L'image avec texte a été sauvegardée sous 'img/currentmodifiedimg.jpg'.
+[2024-12-11 14:45:06] L'image a été redimensionnée et sauvegardée.
+[2024-12-11 14:45:27] L'image a été convertie en niveaux de gris et sauvegardée.
+[2024-12-11 14:45:27] L'image a été floutée et sauvegardée.
+[2024-12-11 14:45:28] L'image a été dilatée et sauvegardée.
+[2024-12-11 14:45:28] L'image a été tournée et sauvegardée.
+[2024-12-11 14:45:28] L'image avec texte a été sauvegardée sous 'img/currentmodifiedimg.jpg'.
+[2024-12-11 14:45:28] L'image avec texte a été sauvegardée sous 'img/currentmodifiedimg.jpg'.
+[2024-12-11 14:45:28] L'image a été redimensionnée et sauvegardée.
+[2024-12-11 14:45:28] L'image a été convertie en niveaux de gris et sauvegardée.
+[2024-12-11 14:45:28] L'image a été floutée et sauvegardée.
+[2024-12-11 14:45:28] L'image a été dilatée et sauvegardée.
+[2024-12-11 14:45:28] L'image a été tournée et sauvegardée.
+[2024-12-11 14:45:29] L'image avec texte a été sauvegardée sous 'img/currentmodifiedimg.jpg'.
+[2024-12-11 14:45:29] L'image avec texte a été sauvegardée sous 'img/currentmodifiedimg.jpg'.
+[2024-12-11 14:45:29] L'image a été redimensionnée et sauvegardée.
+[2024-12-11 14:45:56] L'image a été convertie en niveaux de gris et sauvegardée.
+[2024-12-11 14:45:56] L'image a été floutée et sauvegardée.
+[2024-12-11 14:45:57] L'image a été dilatée et sauvegardée.
+[2024-12-11 14:45:57] L'image a été tournée et sauvegardée.
+[2024-12-11 14:45:57] L'image avec texte a été sauvegardée sous 'img/currentmodifiedimg.jpg'.
+[2024-12-11 14:45:57] L'image avec texte a été sauvegardée sous 'img/currentmodifiedimg.jpg'.
+[2024-12-11 14:45:57] L'image a été redimensionnée et sauvegardée.
+[2024-12-11 14:45:57] L'image a été convertie en niveaux de gris et sauvegardée.
+[2024-12-11 14:45:57] L'image a été floutée et sauvegardée.
+[2024-12-11 14:45:57] L'image a été dilatée et sauvegardée.
+[2024-12-11 14:45:57] L'image a été tournée et sauvegardée.
+[2024-12-11 14:45:57] L'image avec texte a été sauvegardée sous 'img/currentmodifiedimg.jpg'.
+[2024-12-11 14:45:58] L'image avec texte a été sauvegardée sous 'img/currentmodifiedimg.jpg'.
+[2024-12-11 14:45:58] L'image a été redimensionnée et sauvegardée.
+[2024-12-11 14:46:11] L'image a été convertie en niveaux de gris et sauvegardée.
+[2024-12-11 14:46:12] L'image a été floutée et sauvegardée.
+[2024-12-11 14:46:12] L'image a été dilatée et sauvegardée.
+[2024-12-11 14:46:12] L'image a été tournée et sauvegardée.
+[2024-12-11 14:46:12] L'image avec texte a été sauvegardée sous 'img/currentmodifiedimg.jpg'.
+[2024-12-11 14:46:12] L'image avec texte a été sauvegardée sous 'img/currentmodifiedimg.jpg'.
+[2024-12-11 14:46:12] L'image a été redimensionnée et sauvegardée.
+[2024-12-11 14:46:12] L'image a été convertie en niveaux de gris et sauvegardée.
+[2024-12-11 14:46:12] L'image a été floutée et sauvegardée.
+[2024-12-11 14:46:13] L'image a été dilatée et sauvegardée.
+[2024-12-11 14:46:13] L'image a été tournée et sauvegardée.
+[2024-12-11 14:46:13] L'image avec texte a été sauvegardée sous 'img/currentmodifiedimg.jpg'.
+[2024-12-11 14:46:13] L'image avec texte a été sauvegardée sous 'img/currentmodifiedimg.jpg'.
+[2024-12-11 14:46:13] L'image a été redimensionnée et sauvegardée.
+[2024-12-11 14:46:16] L'image a été convertie en niveaux de gris et sauvegardée.
+[2024-12-11 14:46:16] L'image a été floutée et sauvegardée.
+[2024-12-11 14:46:17] L'image a été dilatée et sauvegardée.
+[2024-12-11 14:46:17] L'image a été tournée et sauvegardée.
+[2024-12-11 14:46:17] L'image avec texte a été sauvegardée sous 'img/currentmodifiedimg.jpg'.
+[2024-12-11 14:46:17] L'image avec texte a été sauvegardée sous 'img/currentmodifiedimg.jpg'.
+[2024-12-11 14:46:17] L'image a été redimensionnée et sauvegardée.
+[2024-12-11 14:46:17] L'image a été convertie en niveaux de gris et sauvegardée.
+[2024-12-11 14:46:17] L'image a été floutée et sauvegardée.
+[2024-12-11 14:46:17] L'image a été dilatée et sauvegardée.
+[2024-12-11 14:46:17] L'image a été tournée et sauvegardée.
+[2024-12-11 14:46:17] L'image avec texte a été sauvegardée sous 'img/currentmodifiedimg.jpg'.
+[2024-12-11 14:46:17] L'image avec texte a été sauvegardée sous 'img/currentmodifiedimg.jpg'.
+[2024-12-11 14:46:17] L'image a été redimensionnée et sauvegardée.
+[2024-12-11 14:47:24] Erreur lors de la rotation de l'image : 'str' object has no attribute 'rotate'
+[2024-12-11 14:47:25] L'image avec texte a été sauvegardée sous 'img/currentmodifiedimg.jpg'.
+[2024-12-11 14:47:54] Erreur lors de la rotation de l'image : 'str' object has no attribute 'rotate'
+[2024-12-11 14:49:19] L'image a été tournée et sauvegardée.
+[2024-12-11 14:49:20] L'image avec texte a été sauvegardée sous 'img/currentmodifiedimg.jpg'.
+[2024-12-11 14:49:29] L'image a été tournée et sauvegardée.
+[2024-12-11 14:49:29] L'image avec texte a été sauvegardée sous 'img/currentmodifiedimg.jpg'.
+[2024-12-11 14:50:01] L'image a été tournée et sauvegardée.
+[2024-12-11 14:50:01] L'image avec texte a été sauvegardée sous 'img/currentmodifiedimg.jpg'.
+[2024-12-11 14:56:12] L'image a été convertie en niveaux de gris et sauvegardée.
+[2024-12-11 14:56:23] L'image a été convertie en niveaux de gris et sauvegardée.
+[2024-12-11 14:56:33] L'image a été convertie en niveaux de gris et sauvegardée.
+[2024-12-11 14:56:39] L'image a été convertie en niveaux de gris et sauvegardée.
+[2024-12-11 14:57:04] L'image a été convertie en niveaux de gris et sauvegardée.
+[2024-12-11 14:57:47] L'image a été convertie en niveaux de gris et sauvegardée.
+[2024-12-11 14:58:17] L'image a été convertie en niveaux de gris et sauvegardée.
+[2024-12-11 14:58:49] L'image a été convertie en niveaux de gris et sauvegardée.
+[2024-12-11 14:58:59] L'image a été convertie en niveaux de gris et sauvegardée.
+[2024-12-11 14:59:42] L'image avec texte a été sauvegardée sous 'img/currentmodifiedimg.jpg'.
+[2024-12-11 15:01:12] Erreur lors de l'application du flou : 'str' object has no attribute 'filter'
+[2024-12-11 15:01:42] Erreur lors de l'application du flou : 'str' object has no attribute 'filter'
+[2024-12-11 15:02:22] Erreur lors de l'application du flou : 'str' object has no attribute 'filter'
+[2024-12-11 15:02:35] L'image a été floutée et sauvegardée.
+[2024-12-11 15:02:46] L'image a été floutée et sauvegardée.
+[2024-12-11 15:03:14] L'image a été floutée et sauvegardée.
+[2024-12-11 15:04:11] L'image a été convertie en niveaux de gris et sauvegardée.
+[2024-12-11 15:04:19] L'image a été convertie en niveaux de gris et sauvegardée.
+[2024-12-11 15:07:10] L'image a été convertie en niveaux de gris et sauvegardée.
+[2024-12-11 15:07:27] L'image a été convertie en niveaux de gris et sauvegardée.
+[2024-12-11 15:07:57] L'image a été convertie en niveaux de gris et sauvegardée.
+[2024-12-11 15:08:31] L'image a été convertie en niveaux de gris et sauvegardée.
+[2024-12-11 15:09:07] L'image a été convertie en niveaux de gris et sauvegardée.
+[2024-12-11 15:10:25] L'image a été convertie en niveaux de gris et sauvegardée.
+[2024-12-11 15:10:55] L'image a été convertie en niveaux de gris et sauvegardée.
+[2024-12-11 15:12:46] L'image a été convertie en niveaux de gris et sauvegardée.
+[2024-12-11 15:13:11] L'image a été convertie en niveaux de gris et sauvegardée.
+[2024-12-11 15:14:33] L'image a été convertie en niveaux de gris et sauvegardée.
+[2024-12-11 15:14:38] L'image a été convertie en niveaux de gris et sauvegardée.
+[2024-12-11 15:21:32] L'image a été convertie en niveaux de gris et sauvegardée.
+[2024-12-11 15:21:32] L'image a été convertie en niveaux de gris et sauvegardée.
+[2024-12-11 15:21:55] L'image a été convertie en niveaux de gris et sauvegardée.
+[2024-12-11 15:27:23] L'image a été convertie en niveaux de gris et sauvegardée.
+[2024-12-11 15:27:27] L'image a été convertie en niveaux de gris et sauvegardée.
+[2024-12-11 15:49:09] L'image a été convertie en niveaux de gris et sauvegardée.
+[2024-12-11 15:50:12] L'image a été convertie en niveaux de gris et sauvegardée.
+[2024-12-11 15:50:21] L'image a été convertie en niveaux de gris et sauvegardée.
+[2024-12-11 15:51:07] L'image a été convertie en niveaux de gris et sauvegardée.
+[2024-12-11 15:52:08] L'image a été convertie en niveaux de gris et sauvegardée.
+[2024-12-11 15:52:20] L'image a été convertie en niveaux de gris et sauvegardée.

@@ -299,7 +299,7 @@ path = "img/moto.jpg"
 image = Image.open(path)
 
 image=Image.open(path)
-
+#fonction pour appliquer tout les filtres à une image
 def allfilters(image99,i):
     image = Image.open(image99)
 
@@ -331,6 +331,7 @@ def allfilters(image99,i):
 #allfilters("villa.jpeg")
 
 
+#fonction pour appliquer tout les filtres à une liste d'images
 def allfilterslist(imagelist4):
     imagelist3=imagelist4
     for i in range(len(imagelist3)):
@@ -342,12 +343,6 @@ def allfilterslist(imagelist4):
 
 
 
-def addfilterlist(currentimage):
-    imagelist2.append(currentimage)
-     
-    #allfilters(currentimage,0)
-    
-    print(len(imagelist2))
      
 
 

@@ -13,6 +13,8 @@ def print_help():
     print("-resize <largeur> <hauteur> : Redimensionne l'image")
     print("-write <texte> <x> <y> : Ajoute du texte à l'image")
     print("-showlist              : Ajoute toute les modifications à une liste d'images")
+    print("-watercolor              : Change les couleur en aquarelle")
+    print("-face              : Détection des visages")
     print("-help, -h              : Affiche l'aide")
 
 def process_command(args):
@@ -26,7 +28,7 @@ def process_command(args):
 
     try:
 
-        if command not in ["-write", "-help", "-h"]:
+        if command not in ["-help", "-h"]:
             image = Image.open(image_path)
 
         if command == "-grey":
@@ -75,6 +77,9 @@ def process_command(args):
             y = int(args[5])
             write(image_path, text, x, y)
             print("Texte ajouté à l'image avec succès.")
+
+        elif command == "-face":
+            detect_faces(image_path)
 
         elif command in ["-help", "-h"]:
             print_help()

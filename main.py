@@ -221,27 +221,28 @@ def write(image_path, text, x, y):
 
 
 def detect_faces(image):
+    """
+    can detecte if there is a face
 
-    face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml') # pour détecter l'image
-    open_cv_image = cv2.cvtColor(np.array(image), cv2.COLOR_RGB2BGR) # Converti l'image pil en tableau NumPy pour OpenCV
-    gray = cv2.cvtColor(open_cv_image, cv2.COLOR_BGR2GRAY) # converti l'image en niveaux de gris
+    args:
+    image, an image installed
+    """
+    try:
+        face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml') # pour détecter l'image
+        open_cv_image = cv2.cvtColor(np.array(image), cv2.COLOR_RGB2BGR) # Converti l'image pil en tableau NumPy pour OpenCV
+        gray = cv2.cvtColor(open_cv_image, cv2.COLOR_BGR2GRAY) # converti l'image en niveaux de gris
+        face = face_cascade.detectMultiScale(gray, scaleFactor=1.1, minNeighbors=5) # détecte les visages
 
-    # Détecter les visages dans l'image
-    face = face_cascade.detectMultiScale(gray, scaleFactor=1.1, minNeighbors=5) # détecte les visage
+        draw = ImageDraw.Draw(image) # permet de pouvoir dessiner sur l'image
+        for (x, y, w, h) in face:
+            draw.rectangle([x, y, x + w, y + h], outline="red", width=3) # dessine les carré sur les tetes détectées
 
-    # vérifier si des visages ont été détectés
-    if len(face) == 0:
-        print("Aucun visage détecté.")
-    else:
-        print(f"{len(face)} visage(s) détecté(s).")
-
-    draw = ImageDraw.Draw(image) # permet de pouvoir dessiner sur l'image
-    for (x, y, w, h) in face:
-        draw.rectangle([x, y, x + w, y + h], outline="red", width=3) # dessine les carré sur les tetes détectées
-
-    image.save(currentmodifiedimg)
-
-    return
+        image.save(currentmodifiedimg)
+        Image.open(currentmodifiedimg).show()
+        log("Le(s) visage(s) a/ont bien été détecté.")
+    except Exception as e :
+        log(f"Erreur lors de la détection de visage : {e}")
+        print(f"Erreur lors de la détection de visage : {e}")
 
 
 # Fonction pour ajouter du texte à une image avec OpenCV
@@ -381,4 +382,4 @@ image2 = Image.open("img/meuf.jpg")
 
 #rotate(image2,90)
 
-detect_faces(image2)
+detect_faces("img/meuf.jpg")

@@ -1020,3 +1020,30 @@
 [2024-12-12 23:47:22] L'image a été redimensionnée et sauvegardée.
 [2024-12-12 23:48:49] L'image avec texte a été sauvegardée sous 'img/currentmodifiedimg.jpg'.
 [2024-12-12 23:49:00] L'image a été convertie en niveaux de gris et sauvegardée.
+[2024-12-13 09:14:24] L'image avec texte a Ã©tÃ© sauvegardÃ©e sous 'img/currentmodifiedimg.jpg'.
+[2024-12-13 09:17:58] Le(s) visage(s) a/ont bien Ã©tÃ© dÃ©tectÃ©.
+[2024-12-13 09:17:58] Erreur lors de la dÃ©tection de visage : OpenCV(4.10.0) :-1: error: (-5:Bad argument) in function 'cvtColor'
+> Overload resolution failed:
+>  - src data type = <U12 is not supported
+>  - Expected Ptr<cv::UMat> for argument 'src'
+
+[2024-12-13 09:20:37] Erreur lors de la dÃ©tection de visage : OpenCV(4.10.0) :-1: error: (-5:Bad argument) in function 'cvtColor'
+> Overload resolution failed:
+>  - src data type = <U12 is not supported
+>  - Expected Ptr<cv::UMat> for argument 'src'
+
+[2024-12-13 09:26:01] Erreur lors de la dÃ©tection de visage : OpenCV(4.10.0) :-1: error: (-5:Bad argument) in function 'cvtColor'
+> Overload resolution failed:
+>  - src data type = <U12 is not supported
+>  - Expected Ptr<cv::UMat> for argument 'src'
+
+[2024-12-13 09:26:39] Erreur lors de la dÃ©tection de visage : OpenCV(4.10.0) :-1: error: (-5:Bad argument) in function 'cvtColor'
+> Overload resolution failed:
+>  - src data type = <U12 is not supported
+>  - Expected Ptr<cv::UMat> for argument 'src'
+
+[2024-12-13 09:26:47] Erreur lors de la dÃ©tection de visage : OpenCV(4.10.0) :-1: error: (-5:Bad argument) in function 'cvtColor'
+> Overload resolution failed:
+>  - src data type = <U12 is not supported
+>  - Expected Ptr<cv::UMat> for argument 'src'
+
